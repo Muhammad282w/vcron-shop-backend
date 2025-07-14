@@ -1,22 +1,15 @@
 {
   "name": "vcron-shop-backend",
   "version": "1.0.0",
-  "description": "Backend for vCron Global B2B marketplace",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "build": "echo Building Netlify functions"
-  },
   "dependencies": {
+    "express": "^4.18.2",
     "axios": "^1.6.7",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "node-cache": "^5.1.2",
     "pg": "^8.11.3"
   },
-  "keywords": [],
-  "author": "vCron Global",
-  "license": "ISC"
+  "scripts": {
+    "build": "echo Building functions" // Placeholder, can be expanded
+  }
 }
