@@ -10,6 +10,6 @@
     "pg": "^8.11.3"
   },
   "scripts": {
-    "build": "echo Building functions" // Placeholder, can be expanded
+    "build": "echo Building functions" 
   }
 }
