@@ -195,6 +195,10 @@ app.post('/api/quotes/:id/approve', authenticateToken, async (req, res) => {
     res.status(500).json({ error: 'Failed to approve quote' });
   }
 });
+//netlify.toml
+[functions]
+  directory = "."
+  netlify.toml
 
 // Export for Netlify functions
 module.exports.handler = app; 
